@@ -1,12 +1,10 @@
-# TDIS Metadata Documentation
+# REDI Metadata Documentation
 *Last revised: 2023-04-20*
 
 ## Metadata Organization
-Within the current TDIS model, "collections" contain "artifacts", "data layers", and "models." 
+Within the current REDI model, "collections" contain "artifacts", "data layers", and "models." 
 Data layers can also contain "features", and models can have an associated "configuration". 
 Collections, artifacts, data layers, features, models, and configurations each have descriptive metadata associated with them.  
-
-![TDIS Model Diagram](https://github.com/TexasDIS/metadata/blob/main/visuals/tdis-model-diagram.png)
 
 Collections group one or more layers, artifacts and/or models together. 
 For example, a complex geospatial database object would be represented as a collection containing multiple data layers.
@@ -99,7 +97,7 @@ Each metadata field below is defined with the following elements:
 **Controlled Terms URL**: None  
 
 **Field Name**: File Format  
-**Description**: The file format of the digital object. Used when a data files are uploaded to TDIS.  
+**Description**: The file format of the digital object. Used when a data files are uploaded to REDI.  
 **Use**: Strongly Recommended  
 **Conditional**: No  
 **Use Condition**: None  
@@ -272,12 +270,12 @@ Each metadata field below is defined with the following elements:
 
 ### Administrative
 **Field Name**: Collection Identifier  
-**Description**: The TDIS unique identifier for the associated collection.  
+**Description**: The REDI unique identifier for the associated collection.  
 **Use**: Required_internal  
 **Conditional**: No  
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
-**Format**: TDIS Identifier: UUID  
+**Format**: REDI Identifier: UUID  
 **Controlled Terms URL**: None  
 
 **Field Name**: Creation Date  
@@ -299,7 +297,7 @@ Each metadata field below is defined with the following elements:
 **Controlled Terms URL**: None  
 
 **Field Name**: Date Submitted  
-**Description**: Date the digital object record was submitted to TDIS. Must conform to the ISO 8601 standard.  
+**Description**: Date the digital object record was submitted to REDI. Must conform to the ISO 8601 standard.  
 **Use**: Recommended  
 **Conditional**: No  
 **Use Condition**: None  
@@ -308,12 +306,12 @@ Each metadata field below is defined with the following elements:
 **Controlled Terms URL**: None  
 
 **Field Name**: Identifier  
-**Description**: The TDIS unique identifier for the digital object.  
+**Description**: The REDI unique identifier for the digital object.  
 **Use**: Required_internal  
 **Conditional**: No  
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
-**Format**: TDIS Identifier: UUID  
+**Format**: REDI Identifier: UUID  
 **Controlled Terms URL**: None  
 
 **Field Name**: License  
@@ -538,7 +536,7 @@ Each metadata field below is defined with the following elements:
 **Controlled Terms URL**: None  
 
 **Field Name**: File Format  
-**Description**: The file format of the digital object. Used when a data files are uploaded to TDIS.  
+**Description**: The file format of the digital object. Used when a data files are uploaded to REDI.  
 **Use**: Strongly Recommended  
 **Conditional**: No  
 **Use Condition**: None  
@@ -747,12 +745,12 @@ Each metadata field below is defined with the following elements:
 
 ### Administrative
 **Field Name**: Collection Identifier  
-**Description**: The TDIS unique identifier for the associated collection.  
+**Description**: The REDI unique identifier for the associated collection.  
 **Use**: Required_internal  
 **Conditional**: No  
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
-**Format**: TDIS Identifier: UUID  
+**Format**: REDI Identifier: UUID  
 **Controlled Terms URL**: None  
 
 **Field Name**: Creation Date  
@@ -774,7 +772,7 @@ Each metadata field below is defined with the following elements:
 **Controlled Terms URL**: None  
 
 **Field Name**: Date Submitted  
-**Description**: Date the digital object record was submitted to TDIS. Must conform to the ISO 8601 standard.  
+**Description**: Date the digital object record was submitted to REDI. Must conform to the ISO 8601 standard.  
 **Use**: Recommended  
 **Conditional**: No  
 **Use Condition**: None  
@@ -783,12 +781,12 @@ Each metadata field below is defined with the following elements:
 **Controlled Terms URL**: None  
 
 **Field Name**: Identifier  
-**Description**: The TDIS unique identifier for the digital object.  
+**Description**: The REDI unique identifier for the digital object.  
 **Use**: Required_internal  
 **Conditional**: No  
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
-**Format**: TDIS Identifier: UUID  
+**Format**: REDI Identifier: UUID  
 **Controlled Terms URL**: None  
 
 **Field Name**: License  
@@ -1123,12 +1121,12 @@ Each metadata field below is defined with the following elements:
 
 ### Administrative
 **Field Name**: Collection Identifier  
-**Description**: The TDIS unique identifier for the associated collection.  
+**Description**: The REDI unique identifier for the associated collection.  
 **Use**: Required_internal  
 **Conditional**: No  
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
-**Format**: TDIS Identifier: UUID  
+**Format**: REDI Identifier: UUID  
 **Controlled Terms URL**: None  
 
 **Field Name**: Creation Date  
@@ -1150,7 +1148,7 @@ Each metadata field below is defined with the following elements:
 **Controlled Terms URL**: None  
 
 **Field Name**: Date Submitted  
-**Description**: Date the digital object record was submitted to TDIS. Must conform to the ISO 8601 standard.  
+**Description**: Date the digital object record was submitted to REDI. Must conform to the ISO 8601 standard.  
 **Use**: Recommended  
 **Conditional**: No  
 **Use Condition**: None  
@@ -1159,12 +1157,12 @@ Each metadata field below is defined with the following elements:
 **Controlled Terms URL**: None  
 
 **Field Name**: Identifier  
-**Description**: The TDIS unique identifier for the digital object.  
+**Description**: The REDI unique identifier for the digital object.  
 **Use**: Required_internal  
 **Conditional**: No  
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
-**Format**: TDIS Identifier: UUID  
+**Format**: REDI Identifier: UUID  
 **Controlled Terms URL**: None  
 
 **Field Name**: License  
@@ -1336,21 +1334,21 @@ Each metadata field below is defined with the following elements:
 
 ### Administrative
 **Field Name**: Collection Identifier  
-**Description**: The TDIS unique identifier for the associated collection.  
+**Description**: The REDI unique identifier for the associated collection.  
 **Use**: Required_internal  
 **Conditional**: No  
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
-**Format**: TDIS Identifier: UUID  
+**Format**: REDI Identifier: UUID  
 **Controlled Terms URL**: None  
 
 **Field Name**: Identifier  
-**Description**: The TDIS unique identifier for the digital object.  
+**Description**: The REDI unique identifier for the digital object.  
 **Use**: Required_internal  
 **Conditional**: No  
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
-**Format**: TDIS Identifier: UUID  
+**Format**: REDI Identifier: UUID  
 **Controlled Terms URL**: None  
 
 ### Contact Information
@@ -1551,21 +1549,21 @@ Each metadata field below is defined with the following elements:
 ## Model Configuration
 ### Reuse
 **Field Name**: Input File  
-**Description**: The TDIS unique identifier for an Artifact or Layer serving as input.  
+**Description**: The REDI unique identifier for an Artifact or Layer serving as input.  
 **Use**: Optional  
 **Conditional**: No  
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
-**Format**: TDIS Identifier: UUID  
+**Format**: REDI Identifier: UUID  
 **Controlled Terms URL**: None  
 
 **Field Name**: Output File  
-**Description**: The TDIS unique identifier for an Artifact or Layer serving as output.  
+**Description**: The REDI unique identifier for an Artifact or Layer serving as output.  
 **Use**: Optional  
 **Conditional**: No  
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
-**Format**: TDIS Identifier: UUID  
+**Format**: REDI Identifier: UUID  
 **Controlled Terms URL**: None  
 
 ### Administrative

@@ -1,6 +1,6 @@
 ,status,display_name,metadata_level,metadata_group,definition,example,use,conditional,use_condition,accepts_mulitple_values,validation,published_terms
 26,Core,Chain of Custody,Collection,Reuse,"A statement of any changes in ownership and custody of the digital object since its creation that are significant for its authenticity, integrity, and interpretation. The statement may include a description of any changes successive custodians made to the digital object.",Data collection and creation of dataset performed by USGS. Additional reclass field added by UTCSR.,Recommended,No,None,Yes,Text,None
-15,Core,Collection Identifier,Collection,Administrative,The TDIS unique identifier for the associated collection.,TBD,Required_internal,No,None,No,TDIS Identifier: UUID,None
+15,Core,Collection Identifier,Collection,Administrative,The REDI unique identifier for the associated collection.,TBD,Required_internal,No,None,No,REDI Identifier: UUID,None
 19,Core,Contact Affiliation,Collection,Contact Information,Organizational affiliation for the responsible point of contact.,University of Texas,Required,No,None,Yes,Controlled Terms,https://github.com/TexasDIS/metadata/blob/main/controlled_terms/organization.csv
 20,Core,Contact Department,Collection,Contact Information,Dept under the Contact Affiliation,Center for Space Research,Required,Yes,Contact Affiliation,Yes,Text,
 21,Core,Contact Email,Collection,Contact Information,Email for the responsible point of contact.,john.doe@gmail.com,Required,Yes,Contact Name,Yes,Text,None
@@ -10,7 +10,7 @@
 32,Core,Description ,Collection,Discovery,"An account of the digital object. The description may include an abstract, a table of contents, or a free-text account.","""This point dataset represents high water mark observations made by USGS field staff after Hurricane Harvey in Sept 2017  (Sept 9 - Oct 10). 
 High water mark types include debris lines, seed lines, mud lines, direct observation, and other types. 
 ",Required,No,None,No,Text,None
-42,Core,Identifier,Collection,Administrative,The TDIS unique identifier for the digital object.,,Required_internal,No,None,No,TDIS Identifier: UUID,None
+42,Core,Identifier,Collection,Administrative,The REDI unique identifier for the digital object.,,Required_internal,No,None,No,REDI Identifier: UUID,None
 44,Core,Keyword Term,Collection,Discovery,Subject matter keywords,"storm surges, drought",Required,No,Keyword Vocabulary,Yes,Array:Text,None
 48,Core,Keyword Vocabulary,Collection,Discovery,Vocabulary for subject matter keywords listed in Keyword Term.,"AGROVOC, USGS",Recommended,Yes,Keyword Terms,No,Controlled Terms,https://github.com/TexasDIS/metadata/blob/main/controlled_terms/keyword_vocabulary.csv
 59,Core,Purpose,Collection,Discovery,A description of the purpose for the creation of this digital object and/or the expected use.,"For future flood forecasting, predicting severity of future floods, and delineating floodplain maps

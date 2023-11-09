@@ -29,7 +29,6 @@ High water mark types include debris lines, seed lines, mud lines, direct observ
 44,Core,Keyword Term,Model,Discovery,Subject matter keywords,"storm surges, drought",Required,No,Keyword Vocabulary,Yes,Array:Text,None
 48,Core,Keyword Vocabulary,Model,Discovery,Vocabulary for subject matter keywords listed in Keyword Term.,"AGROVOC, USGS",Recommended,Yes,Keyword Terms,No,Controlled Terms,https://github.com/TexasDIS/metadata/blob/main/controlled_terms/keyword_vocabulary.csv
 50,Core,License,Model,Administrative,License associated with the digital object.,,Optional,No,None,No,Text,None
-64,Core,Model Config File,Model,Discovery,File or files required for running the model.,,Required,,,Yes,Text,
 51,Core,Model Dimension,Model,Discovery,"Dimensionality choice of a terrain model (1D, 2D, 3D, or combos) created prior to running hydro model computations.",,Required,No,,Yes,,https://github.com/TexasDIS/metadata/blob/main/controlled_terms/model_dimension.csv
 62,Core,Model Software Name,Model,Discovery,The name of the model software used to create or work with the digital object.,HEC-RAS,Required ,No,None,No,Controlled Terms,https://github.com/TexasDIS/metadata/blob/main/controlled_terms/software.csv
 63,Core,Model Software Version,Model,Discovery,The version of the software used to create or work with the digital object.,2.0.1,Required,No,None,No,Numeric,None

@@ -1,5 +1,5 @@
 # REDI Metadata Documentation
-*Last revised: 2023-11-03*
+*Last revised: 2023-11-09*
 
 ## Metadata Organization
 Within the current REDI model, "collections" contain "artifacts", "data layers", and "models." 
@@ -1030,15 +1030,6 @@ Each metadata field below is defined with the following elements:
 **Format**: Controlled Terms  
 **Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/keyword_vocabulary.csv  
 
-**Field Name**: Model Config File  
-**Description**: File or files required for running the model.  
-**Use**: Required  
-**Conditional**:   
-**Use Condition**:   
-**Accepts Multiple Values**: Yes  
-**Format**: Text  
-**Controlled Terms URL**:   
-
 **Field Name**: Model Dimension  
 **Description**: Dimensionality choice of a terrain model (1D, 2D, 3D, or combos) created prior to running hydro model computations.  
 **Use**: Required  
@@ -1549,6 +1540,16 @@ Each metadata field below is defined with the following elements:
 **Controlled Terms URL**: None  
 
 ## Model Configuration
+### Discovery
+**Field Name**: Model Config File  
+**Description**: File or files required for running the model.  
+**Use**: Required  
+**Conditional**:   
+**Use Condition**:   
+**Accepts Multiple Values**: Yes  
+**Format**: Text  
+**Controlled Terms URL**:   
+
 ### Reuse
 **Field Name**: Model Input File  
 **Description**: The REDI unique identifier for an Artifact or Layer serving as input.  
@@ -1559,7 +1560,7 @@ Each metadata field below is defined with the following elements:
 **Format**: REDI Identifier: UUID  
 **Controlled Terms URL**: None  
 
-**Field Name**: Model_Output File  
+**Field Name**: Model Output File  
 **Description**: The REDI unique identifier for an Artifact or Layer serving as output.  
 **Use**: Optional  
 **Conditional**: No  

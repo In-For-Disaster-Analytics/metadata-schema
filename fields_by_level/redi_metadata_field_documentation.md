@@ -1539,7 +1539,7 @@ Each metadata field below is defined with the following elements:
 **Format**: Date: ISO 8601  
 **Controlled Terms URL**: None  
 
-## Model Configuration
+## ModelConfiguration
 ### Discovery
 **Field Name**: Model Config File  
 **Description**: File or files required for running the model.  
@@ -1550,6 +1550,7 @@ Each metadata field below is defined with the following elements:
 **Format**: Text  
 **Controlled Terms URL**:   
 
+## Model Configuration
 ### Reuse
 **Field Name**: Model Input File  
 **Description**: The REDI unique identifier for an Artifact or Layer serving as input.  

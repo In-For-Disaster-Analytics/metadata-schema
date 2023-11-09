@@ -1,0 +1,2 @@
+,status,display_name,metadata_level,metadata_group,definition,example,use,conditional,use_condition,accepts_mulitple_values,validation,published_terms
+64,Core,Model Config File,ModelConfiguration,Discovery,File or files required for running the model.,,Required,,,Yes,Text,

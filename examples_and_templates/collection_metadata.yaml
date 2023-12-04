@@ -5,7 +5,7 @@ global_attributes:
   contact_email: jim.steele@harrisco.gov
   contact_name: Jim Steele
   contact_phone: 512-135-1234
-  contact_role: creator (see controlled vocabulary csv file reference)
+  contact_role: Metadata Creator, Submitter, Steward (see controlled vocabulary csv file reference)
   custody_chain: data collection and creation of dataset performed by Harris Co. Additional reclass field added by TCEQ
   description: high water marks documented in PDF. AOI mapped with point layer of HWM locations
   identifier: The REDI unique identifier for the digital object

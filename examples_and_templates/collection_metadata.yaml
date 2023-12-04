@@ -1,0 +1,18 @@
+global_attributes:
+  collection_identifier: The REDI unique identifier for the associated collection
+  contact_affiliation: Harris County (see controlled vocabulary csv file reference)
+  contact_dept: Water Resources
+  contact_email: jim.steele@harrisco.gov
+  contact_name: Jim Steele
+  contact_phone: 512-135-1234
+  contact_role: creator (see controlled vocabulary csv file reference)
+  custody_chain: data collection and creation of dataset performed by Harris Co. Additional reclass field added by TCEQ
+  description: high water marks documented in PDF. AOI mapped with point layer of HWM locations
+  identifier: The REDI unique identifier for the digital object
+  keyword: high water marks, HWM, flood, inundation, tropical storm
+  keyword_vocabulary: National Weather Service Glossary	(see controlled vocabulary csv file reference)
+  purpose: Geospatial and reporting data from tropical storm Ned (5 - 8 Aug 2019)
+  scale: Local (see controlled vocabulary csv file reference)
+  spatial_extent: (31.555, -101.555), (27.555, -97.555)
+  title: Harris County Flood Event #HC123001
+  

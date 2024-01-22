@@ -1,5 +1,5 @@
 # REDI Metadata Documentation
-*Last revised: 2023-11-13*
+*Last revised: 2024-01-22*
 
 ## Metadata Organization
 Within the current REDI model, "collections" contain "artifacts", "data layers", and "models." 
@@ -144,15 +144,6 @@ Each metadata field below is defined with the following elements:
 **Controlled Terms URL**: None  
 
 ### Reuse
-**Field Name**: Attribute Accuracy  
-**Description**: A statement giving a general assessment of the overall accuracy or completeness of the attribute table associated with the layer.  
-**Use**: Strongly Recommended  
-**Conditional**: No  
-**Use Condition**: None  
-**Accepts Multiple Values**: No  
-**Format**: Text  
-**Controlled Terms URL**: None  
-
 **Field Name**: Attribute Code Set Name  
 **Description**: The official name of the established code set.  
 **Use**: Optional  
@@ -270,6 +261,15 @@ Each metadata field below is defined with the following elements:
 **Format**: Text  
 **Controlled Terms URL**: None  
 
+**Field Name**: Table Assessment  
+**Description**: A statement giving a general assessment of the overall accuracy or completeness of the attribute table associated with the layer.  
+**Use**: Strongly Recommended  
+**Conditional**: No  
+**Use Condition**: None  
+**Accepts Multiple Values**: No  
+**Format**: Text  
+**Controlled Terms URL**: None  
+
 ### Administrative
 **Field Name**: Collection Identifier  
 **Description**: The REDI unique identifier for the associated collection.  
@@ -355,7 +355,7 @@ Each metadata field below is defined with the following elements:
 
 **Field Name**: Contact Department  
 **Description**: Dept under the Contact Affiliation  
-**Use**: Required  
+**Use**: Recommended  
 **Conditional**: Yes  
 **Use Condition**: Contact Affiliation  
 **Accepts Multiple Values**: Yes  
@@ -601,15 +601,6 @@ Each metadata field below is defined with the following elements:
 **Controlled Terms URL**: None  
 
 ### Reuse
-**Field Name**: Attribute Accuracy  
-**Description**: A statement giving a general assessment of the overall accuracy or completeness of the attribute table associated with the layer.  
-**Use**: Strongly Recommended  
-**Conditional**: No  
-**Use Condition**: None  
-**Accepts Multiple Values**: No  
-**Format**: Text  
-**Controlled Terms URL**: None  
-
 **Field Name**: Attribute Code Set Name  
 **Description**: The official name of the established code set.  
 **Use**: Optional  
@@ -745,6 +736,15 @@ Each metadata field below is defined with the following elements:
 **Format**: Text  
 **Controlled Terms URL**: None  
 
+**Field Name**: Table Assessment  
+**Description**: A statement giving a general assessment of the overall accuracy or completeness of the attribute table associated with the layer.  
+**Use**: Strongly Recommended  
+**Conditional**: No  
+**Use Condition**: None  
+**Accepts Multiple Values**: No  
+**Format**: Text  
+**Controlled Terms URL**: None  
+
 ### Administrative
 **Field Name**: Collection Identifier  
 **Description**: The REDI unique identifier for the associated collection.  
@@ -830,7 +830,7 @@ Each metadata field below is defined with the following elements:
 
 **Field Name**: Contact Department  
 **Description**: Dept under the Contact Affiliation  
-**Use**: Required  
+**Use**: Recommended  
 **Conditional**: Yes  
 **Use Condition**: Contact Affiliation  
 **Accepts Multiple Values**: Yes  
@@ -1206,7 +1206,7 @@ Each metadata field below is defined with the following elements:
 
 **Field Name**: Contact Department  
 **Description**: Dept under the Contact Affiliation  
-**Use**: Required  
+**Use**: Recommended  
 **Conditional**: Yes  
 **Use Condition**: Contact Affiliation  
 **Accepts Multiple Values**: Yes  
@@ -1356,7 +1356,7 @@ Each metadata field below is defined with the following elements:
 
 **Field Name**: Contact Department  
 **Description**: Dept under the Contact Affiliation  
-**Use**: Required  
+**Use**: Recommended  
 **Conditional**: Yes  
 **Use Condition**: Contact Affiliation  
 **Accepts Multiple Values**: Yes  
@@ -1551,6 +1551,15 @@ Each metadata field below is defined with the following elements:
 **Controlled Terms URL**:   
 
 ### Reuse
+**Field Name**: Model Input File  
+**Description**: The REDI unique identifier for an Artifact or Layer serving as input.  
+**Use**: Optional  
+**Conditional**: No  
+**Use Condition**: None  
+**Accepts Multiple Values**: Yes  
+**Format**: REDI Identifier: UUID  
+**Controlled Terms URL**: None  
+
 **Field Name**: Model Output File  
 **Description**: The REDI unique identifier for an Artifact or Layer serving as output.  
 **Use**: Optional  
@@ -1568,16 +1577,5 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
 **Format**: None  
-**Controlled Terms URL**: None  
-
-## Model Configuration
-### Reuse
-**Field Name**: Model Input File  
-**Description**: The REDI unique identifier for an Artifact or Layer serving as input.  
-**Use**: Optional  
-**Conditional**: No  
-**Use Condition**: None  
-**Accepts Multiple Values**: Yes  
-**Format**: REDI Identifier: UUID  
 **Controlled Terms URL**: None  
 

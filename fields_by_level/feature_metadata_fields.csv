@@ -1,9 +1,9 @@
 ,status,display_name,metadata_level,metadata_group,definition,example,use,conditional,use_condition,accepts_mulitple_values,validation,published_terms
-16,Core,Collection Method,Feature,Reuse,"The procedure, technique, or mode of inquiry used to attain data. Also referred to as ""Data Capture Method"".","Digitization-Satellite, GPS Measurement-Real",Strongly Recommended,No,None,Yes,Controlled Terms,https://github.com/TexasDIS/metadata/blob/main/controlled_terms/collection_method.csv
-17,Core,Collection Method Description,Feature,Reuse,Description of the data collection method.,Coordinate acquired by field staff using real-time corrected GPS,Strongly Recommended,Yes,Collection Method,No,Text,None
-29,Core,Date Last Updated,Feature,Administrative,The date the digital object was last updated. Must conform to the ISO 8601 standard.,2021-11-10,Required,No,None,No,Date: ISO 8601,None
-38,Core,Horizontal Accuracy (Meters),Feature,Reuse,Numeric value for the accuracy in meters.,12 meters,Required,No,None,Yes,Numeric,None
-39,Core,Horizontal Accuracy Method,Feature,Reuse,Method for determining accuracy of the data.,"The majority of outfalls were heads-up digitized from USGS 7.5"" DRGs. Coordinates were measured by heads-up digitizing from DRGs are considered to be accurate to about 12 meters (National Map Accuracy Standards for 1:24K).
+17,Core,Collection Method,Feature,Reuse,"The procedure, technique, or mode of inquiry used to attain data. Also referred to as ""Data Capture Method"".","Digitization-Satellite, GPS Measurement-Real",Strongly Recommended,No,None,Yes,Controlled Terms,https://github.com/TexasDIS/metadata/blob/main/controlled_terms/collection_method.csv
+18,Core,Collection Method Description,Feature,Reuse,Description of the data collection method.,Coordinate acquired by field staff using real-time corrected GPS,Strongly Recommended,Yes,Collection Method,No,Text,None
+30,Core,Date Last Updated,Feature,Administrative,The date the digital object was last updated. Must conform to the ISO 8601 standard.,2021-11-10,Required,No,None,No,Date: ISO 8601,None
+39,Core,Horizontal Accuracy (Meters),Feature,Reuse,Numeric value for the accuracy in meters.,12 meters,Required,No,None,Yes,Numeric,None
+40,Core,Horizontal Accuracy Method,Feature,Reuse,Method for determining accuracy of the data.,"The majority of outfalls were heads-up digitized from USGS 7.5"" DRGs. Coordinates were measured by heads-up digitizing from DRGs are considered to be accurate to about 12 meters (National Map Accuracy Standards for 1:24K).
 ",Required,No,None,Yes,Controlled Terms,https://github.com/TexasDIS/metadata/blob/main/controlled_terms/collection_method.csv
 72,Core,Vertical Accuracy (Meters),Feature,Reuse,Numeric value for the accuracy in meters.,2 meters,Required,No,None,Yes,Numeric,None
 73,Core,Vertical Accuracy Method,Feature,Reuse,Method for determining accuracy of the data.,"Vertical elevations based on contours and benchmarks on USGS Topos.

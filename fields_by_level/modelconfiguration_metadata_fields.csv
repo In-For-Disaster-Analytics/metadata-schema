@@ -1,4 +1,5 @@
 ,status,display_name,metadata_level,metadata_group,definition,example,use,conditional,use_condition,accepts_mulitple_values,validation,published_terms
-64,Core,Model Config File,ModelConfiguration,Discovery,File or files required for running the model.,,Required,,,Yes,Text,
-54,Core,Model Output File,ModelConfiguration,Reuse,The REDI unique identifier for an Artifact or Layer serving as output.,TBD,Optional,No,None,Yes,REDI Identifier: UUID,None
-53,Core,Object Version,ModelConfiguration,Administrative,Version number of the digital object.,,Optional,No,None,No,None,None
+50,Core,Model Config File,ModelConfiguration,Discovery,File or files required for running the model.,,Required,,,Yes,Text,
+44,Core,Model Input File,ModelConfiguration,Reuse,The REDI unique identifier for an Artifact or Layer serving as input.,County,Optional,No,None,Yes,REDI Identifier: UUID,None
+56,Core,Model Output File,ModelConfiguration,Reuse,The REDI unique identifier for an Artifact or Layer serving as output.,TBD,Optional,No,None,Yes,REDI Identifier: UUID,None
+55,Core,Object Version,ModelConfiguration,Administrative,Version number of the digital object.,,Optional,No,None,No,None,None

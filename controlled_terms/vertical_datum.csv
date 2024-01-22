@@ -1,0 +1,30 @@
+term,wkid,type
+NAVD 1988,5703,vertical
+NAVD 1988 Height US Feet,6360,vertical
+NAVD 1988 Height Intl Feet,8228,vertical
+NAVD 1988 Depth,6357,vertical
+NAVD 1988 Depth US Feet,6358,vertical
+EGM 2008,3855,vertical
+EGM 1996,5773,vertical
+EGM 1984,5798,vertical
+MSL Height,5714,vertical
+MSL Height US Feet,8052,vertical
+MSL Height Intl Feet,8050,vertical
+MSL Depth,5715,vertical
+MSL Depth US Feet,8053,vertical
+MSL Depth Intl Feet,8051,vertical
+MLW Depth,5867,vertical
+MLLW Depth,5866,vertical
+MLLWS Depth,5864,vertical
+MLWS Depth,5865,vertical
+MHW Height,5868,vertical
+MHHW Height,5969,vertical
+MHWS Height,5870,vertical
+HAT Height,5872,vertical
+LMSL,,vertical
+DTL,,vertical
+MTL,,vertical
+LWD,,vertical
+LT,,vertical
+Not Applicable,,
+Other,,

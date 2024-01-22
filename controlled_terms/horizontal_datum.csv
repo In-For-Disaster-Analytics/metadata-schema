@@ -1,0 +1,9 @@
+term,wkid,type
+WGS 1984,6326,geographic
+NAD 1927,6267,geographic
+NAD 1983,6269,geographic
+NAD 1983 HARN,6152,geographic
+NAD 1983 FBN,1211,geographic
+NAD 1983_2011,1116,geographic
+Not Applicable,,
+Other,,

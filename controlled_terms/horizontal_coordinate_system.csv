@@ -1,0 +1,29 @@
+term,WKID,type
+WGS 1984,4760,geographic
+ITRF 2008,104257,geographic
+Contiguous USA Albers,6350,projected
+State Plane Texas Central,6577,projected
+State Plane Texas Central,6578,projected
+State Plane Texas North Central,6583,projected
+State Plane Texas North Central US Feet,6584,projected
+State Plane Texas North,6581,projected
+State Plane Texas North FIPS US Feet,6582,projected
+State Plane Texas South Central,6587,projected
+State Plane Texas South Central US Feet,6588,projected
+State Plane Texas South,6585,projected
+State Plane Texas South US Feet,6586,projected
+Texas Centric Mapping System Albers,6579,projected
+Texas Centric Mapping System Lambert,6580,projected
+UTM Zone 13N,6342,projected
+UTM Zone 14N,6343,projected
+UTM Zone 15N,6344,projected
+Texas Statewide Mapping System,3081,projected
+USA Contiguous Albers Equal Area Conic,102003,projected
+USA Contiguous Albers Equal Area Conic USGS version,102039,projected
+USA Contiguous Equidistant Conic,102005,projected
+USA Contiguous Lambert Conformal Conic,102004,projected
+US National Atlas Equal Area,2163,projected
+WGS 1984 World Equidistant Cylindrical,4087,projected
+WGS 1984 Web Mercator Auxiliary Sphere,3857,projected
+WGS 1984 World Mercator,3395,projected
+Other,,

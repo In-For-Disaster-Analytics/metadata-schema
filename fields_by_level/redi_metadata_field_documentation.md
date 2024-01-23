@@ -1,5 +1,5 @@
 # REDI Metadata Documentation
-*Last revised: 2024-01-22*
+*Last revised: 2024-01-23*
 
 ## Metadata Organization
 Within the current REDI model, "collections" contain "artifacts", "data layers", and "models." 
@@ -60,7 +60,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/classification_system.csv  
+**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/classification_term.csv  
 
 **Field Name**: Completeness  
 **Description**: A assessment of the level of completeness of the dataset.   
@@ -499,7 +499,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/classification_system.csv  
+**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/classification_term.csv  
 
 **Field Name**: Completeness  
 **Description**: A assessment of the level of completeness of the dataset.   
@@ -698,7 +698,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: Horizontal Coordinate System  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/coordinate_system.csv  
+**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/horizontal_coordinate_system.csv  
 
 **Field Name**: Horizontal Datum  
 **Description**: A horizontal datum is a specified coordinate system for a collection of positions on the surface of the earth. Horizontal datums define the geometric relationship between a coordinate system grid and the Earth's surface.  
@@ -707,7 +707,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: TBD  
 **Accepts Multiple Values**: TBD  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/datum.csv  
+**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/horizontal_datum.csv  
 
 **Field Name**: Processing Step Date  
 **Description**: The date when a particular processing step was completed. Must conform to the ISO 8601 standard.  
@@ -744,6 +744,42 @@ Each metadata field below is defined with the following elements:
 **Accepts Multiple Values**: No  
 **Format**: Text  
 **Controlled Terms URL**: None  
+
+**Field Name**: Vertical Accuracy (Meters)  
+**Description**: Numeric value for the accuracy in meters.  
+**Use**: Required  
+**Conditional**: No  
+**Use Condition**: None  
+**Accepts Multiple Values**: Yes  
+**Format**: Numeric  
+**Controlled Terms URL**: None  
+
+**Field Name**: Vertical Accuracy Method  
+**Description**: Method for determining accuracy of the data.  
+**Use**: Optional  
+**Conditional**: No  
+**Use Condition**: None  
+**Accepts Multiple Values**: Yes  
+**Format**: Controlled Terms  
+**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/collection_method.csv  
+
+**Field Name**: Vertical Coordinate System  
+**Description**: A vertical coordinate system defines the origin for height or depth values. They are used as a reference for specifying heights.  
+**Use**: Optional  
+**Conditional**: No  
+**Use Condition**: None  
+**Accepts Multiple Values**: No  
+**Format**: Controlled Terms  
+**Controlled Terms URL**: \https://github.com/TexasDIS/metadata/blob/main/controlled_terms/vertical_coordinate_system.csv  
+
+**Field Name**: Vertical Datum  
+**Description**: A vertical datum is a surface of zero elevation to which heights of various points are referenced.   
+**Use**: Optional  
+**Conditional**: Yes  
+**Use Condition**: None  
+**Accepts Multiple Values**: Yes  
+**Format**: Controlled Terms  
+**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/vertical_datum.csv  
 
 ### Administrative
 **Field Name**: Collection Identifier  
@@ -1101,7 +1137,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: Horizontal Coordinate System  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/coordinate_system.csv  
+**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/horizontal_coordinate_system.csv  
 
 **Field Name**: Horizontal Datum  
 **Description**: A horizontal datum is a specified coordinate system for a collection of positions on the surface of the earth. Horizontal datums define the geometric relationship between a coordinate system grid and the Earth's surface.  
@@ -1110,7 +1146,43 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: TBD  
 **Accepts Multiple Values**: TBD  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/datum.csv  
+**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/horizontal_datum.csv  
+
+**Field Name**: Vertical Accuracy (Meters)  
+**Description**: Numeric value for the accuracy in meters.  
+**Use**: Required  
+**Conditional**: No  
+**Use Condition**: None  
+**Accepts Multiple Values**: Yes  
+**Format**: Numeric  
+**Controlled Terms URL**: None  
+
+**Field Name**: Vertical Accuracy Method  
+**Description**: Method for determining accuracy of the data.  
+**Use**: Optional  
+**Conditional**: No  
+**Use Condition**: None  
+**Accepts Multiple Values**: Yes  
+**Format**: Controlled Terms  
+**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/collection_method.csv  
+
+**Field Name**: Vertical Coordinate System  
+**Description**: A vertical coordinate system defines the origin for height or depth values. They are used as a reference for specifying heights.  
+**Use**: Optional  
+**Conditional**: No  
+**Use Condition**: None  
+**Accepts Multiple Values**: No  
+**Format**: Controlled Terms  
+**Controlled Terms URL**: \https://github.com/TexasDIS/metadata/blob/main/controlled_terms/vertical_coordinate_system.csv  
+
+**Field Name**: Vertical Datum  
+**Description**: A vertical datum is a surface of zero elevation to which heights of various points are referenced.   
+**Use**: Optional  
+**Conditional**: Yes  
+**Use Condition**: None  
+**Accepts Multiple Values**: Yes  
+**Format**: Controlled Terms  
+**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/vertical_datum.csv  
 
 ### Administrative
 **Field Name**: Collection Identifier  
@@ -1314,6 +1386,55 @@ Each metadata field below is defined with the following elements:
 **Format**: Date: ISO 8601  
 **Controlled Terms URL**: None  
 
+## ModelConfiguration
+### Discovery
+**Field Name**: Accessibility  
+**Description**: How accessible is the data?  Is the data readily available online or must it be requested from the host?  Are there tools online to easily download the files? If it fully accessible as a web service?  
+**Use**: Required  
+**Conditional**: No  
+**Use Condition**: None  
+**Accepts Multiple Values**: No  
+**Format**: Controlled Terms  
+**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/accessibility.csv  
+
+**Field Name**: Model Config File  
+**Description**: File or files required for running the model.  
+**Use**: Required  
+**Conditional**:   
+**Use Condition**:   
+**Accepts Multiple Values**: Yes  
+**Format**: Text  
+**Controlled Terms URL**:   
+
+### Reuse
+**Field Name**: Model Input File  
+**Description**: The REDI unique identifier for an Artifact or Layer serving as input.  
+**Use**: Optional  
+**Conditional**: No  
+**Use Condition**: None  
+**Accepts Multiple Values**: Yes  
+**Format**: REDI Identifier: UUID  
+**Controlled Terms URL**: None  
+
+**Field Name**: Model Output File  
+**Description**: The REDI unique identifier for an Artifact or Layer serving as output.  
+**Use**: Optional  
+**Conditional**: No  
+**Use Condition**: None  
+**Accepts Multiple Values**: Yes  
+**Format**: REDI Identifier: UUID  
+**Controlled Terms URL**: None  
+
+### Administrative
+**Field Name**: Object Version  
+**Description**: Version number of the digital object.  
+**Use**: Optional  
+**Conditional**: No  
+**Use Condition**: None  
+**Accepts Multiple Values**: No  
+**Format**: None  
+**Controlled Terms URL**: None  
+
 ## Collection
 ### Reuse
 **Field Name**: Chain of Custody  
@@ -1513,21 +1634,30 @@ Each metadata field below is defined with the following elements:
 
 **Field Name**: Vertical Accuracy Method  
 **Description**: Method for determining accuracy of the data.  
-**Use**: Required  
+**Use**: Optional  
 **Conditional**: No  
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
 **Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/collection_method.csv  
 
+**Field Name**: Vertical Coordinate System  
+**Description**: A vertical coordinate system defines the origin for height or depth values. They are used as a reference for specifying heights.  
+**Use**: Optional  
+**Conditional**: No  
+**Use Condition**: None  
+**Accepts Multiple Values**: No  
+**Format**: Controlled Terms  
+**Controlled Terms URL**: \https://github.com/TexasDIS/metadata/blob/main/controlled_terms/vertical_coordinate_system.csv  
+
 **Field Name**: Vertical Datum  
 **Description**: A vertical datum is a surface of zero elevation to which heights of various points are referenced.   
-**Use**: Required  
+**Use**: Optional  
 **Conditional**: Yes  
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/datum.csv  
+**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/vertical_datum.csv  
 
 ### Administrative
 **Field Name**: Date Last Updated  
@@ -1537,45 +1667,5 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
 **Format**: Date: ISO 8601  
-**Controlled Terms URL**: None  
-
-## ModelConfiguration
-### Discovery
-**Field Name**: Model Config File  
-**Description**: File or files required for running the model.  
-**Use**: Required  
-**Conditional**:   
-**Use Condition**:   
-**Accepts Multiple Values**: Yes  
-**Format**: Text  
-**Controlled Terms URL**:   
-
-### Reuse
-**Field Name**: Model Input File  
-**Description**: The REDI unique identifier for an Artifact or Layer serving as input.  
-**Use**: Optional  
-**Conditional**: No  
-**Use Condition**: None  
-**Accepts Multiple Values**: Yes  
-**Format**: REDI Identifier: UUID  
-**Controlled Terms URL**: None  
-
-**Field Name**: Model Output File  
-**Description**: The REDI unique identifier for an Artifact or Layer serving as output.  
-**Use**: Optional  
-**Conditional**: No  
-**Use Condition**: None  
-**Accepts Multiple Values**: Yes  
-**Format**: REDI Identifier: UUID  
-**Controlled Terms URL**: None  
-
-### Administrative
-**Field Name**: Object Version  
-**Description**: Version number of the digital object.  
-**Use**: Optional  
-**Conditional**: No  
-**Use Condition**: None  
-**Accepts Multiple Values**: No  
-**Format**: None  
 **Controlled Terms URL**: None  
 

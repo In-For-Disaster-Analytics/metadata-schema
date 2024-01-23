@@ -7,5 +7,6 @@
 ",Required,No,None,Yes,Controlled Terms,https://github.com/TexasDIS/metadata/blob/main/controlled_terms/collection_method.csv
 72,Core,Vertical Accuracy (Meters),Feature,Reuse,Numeric value for the accuracy in meters.,2 meters,Required,No,None,Yes,Numeric,None
 73,Core,Vertical Accuracy Method,Feature,Reuse,Method for determining accuracy of the data.,"Vertical elevations based on contours and benchmarks on USGS Topos.
-",Required,No,None,Yes,Controlled Terms,https://github.com/TexasDIS/metadata/blob/main/controlled_terms/collection_method.csv
-75,Core,Vertical Datum,Feature,Reuse,A vertical datum is a surface of zero elevation to which heights of various points are referenced. ,"NAVD88, NAVD1929",Required,Yes,None,Yes,Controlled Terms,https://github.com/TexasDIS/metadata/blob/main/controlled_terms/datum.csv
+",Optional,No,None,Yes,Controlled Terms,https://github.com/TexasDIS/metadata/blob/main/controlled_terms/collection_method.csv
+74,Core,Vertical Coordinate System,Feature,Reuse,A vertical coordinate system defines the origin for height or depth values. They are used as a reference for specifying heights.,NGVD_1929,Optional,No,None,No,Controlled Terms,\https://github.com/TexasDIS/metadata/blob/main/controlled_terms/vertical_coordinate_system.csv
+75,Core,Vertical Datum,Feature,Reuse,A vertical datum is a surface of zero elevation to which heights of various points are referenced. ,"NAVD88, NAVD1929",Optional,Yes,None,Yes,Controlled Terms,https://github.com/TexasDIS/metadata/blob/main/controlled_terms/vertical_datum.csv

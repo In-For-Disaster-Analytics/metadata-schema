@@ -1,5 +1,5 @@
 # REDI Metadata Documentation
-*Last revised: 2024-01-23*
+*Last revised: 2024-01-24*
 
 ## Metadata Organization
 Within the current REDI model, "collections" contain "artifacts", "data layers", and "models." 
@@ -42,25 +42,25 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/accessibility.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/accessibility.csv  
 
 **Field Name**: Classification System  
-**Description**: TBD  
-**Use**: TBD  
-**Conditional**: No  
-**Use Condition**: None  
+**Description**: Scientific Data Classification  
+**Use**: Optional  
+**Conditional**: Yes  
+**Use Condition**: classification_term  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/classification_system.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/classification_system.csv  
 
 **Field Name**: Classification Term  
-**Description**: TBD  
-**Use**: TBD  
+**Description**: Scientific Data Classification Term  
+**Use**: Optional  
 **Conditional**: No  
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/classification_term.csv  
+**Controlled Terms URL**:   
 
 **Field Name**: Completeness  
 **Description**: A assessment of the level of completeness of the dataset.   
@@ -69,7 +69,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/completeness.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/completeness.csv  
 
 **Field Name**: Creator  
 **Description**: The name of a person or organization who should be cited as contributing to the initial creation of the digital object. Also referred to as an "author" or "contributor".  
@@ -87,7 +87,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/data_stage.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/data_stage.csv  
 
 **Field Name**: Description   
 **Description**: An account of the digital object. The description may include an abstract, a table of contents, or a free-text account.  
@@ -105,7 +105,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/file_format.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/file_format.csv  
 
 **Field Name**: Keyword Term  
 **Description**: Subject matter keywords  
@@ -123,7 +123,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: Keyword Terms  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/keyword_vocabulary.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/keyword_vocabulary.csv  
 
 **Field Name**: Purpose  
 **Description**: A description of the purpose for the creation of this digital object and/or the expected use.  
@@ -178,7 +178,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/attribute_domain_type.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/attribute_domain_type.csv  
 
 **Field Name**: Attribute Domain Value  
 **Description**: Valid value for the attribute.  
@@ -332,7 +332,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/update_frequency.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/update_frequency.csv  
 
 **Field Name**: Use Constraint  
 **Description**: Constraints or restrictions on use of the digital object.  
@@ -341,7 +341,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/use_constraint.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/use_constraint.csv  
 
 ### Contact Information
 **Field Name**: Contact Affiliation  
@@ -351,7 +351,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/organization.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/organization.csv  
 
 **Field Name**: Contact Department  
 **Description**: Dept under the Contact Affiliation  
@@ -396,7 +396,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: Contact Name  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/contact_role.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/contact_role.csv  
 
 ### Access
 **Field Name**: Distribution Method  
@@ -424,7 +424,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: Distribution URL  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/organization.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/organization.csv  
 
 **Field Name**: Service Endpoint Type  
 **Description**: The type of service endpoint used for distribution.  
@@ -433,7 +433,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: Service Endpoint URL  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/service_endpoint_type.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/service_endpoint_type.csv  
 
 ### Coverage
 **Field Name**: Time Period Covered  
@@ -454,7 +454,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/accessibility.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/accessibility.csv  
 
 **Field Name**: Boundary Name  
 **Description**: The geospatial boundary name associated with the digital object. User is required to either provide this boundary type and name field or the spatial extent field.   
@@ -463,7 +463,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: Boundary Type  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata/blob/main/controlled_terms/organization.csv   
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/organization.csv   
 
 **Field Name**: Boundary Type  
 **Description**: The type of geospatial boundary associated with the digital object. User is required to either provide this boundary type and name field or the spatial extent field.   
@@ -472,7 +472,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/boundary_type.csv   
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/boundary_type.csv   
 
 **Field Name**: Boundary Unit Identifier  
 **Description**: The unique identifier for a geospatial boundary unit of a particular type, such as a name or code.  
@@ -481,25 +481,25 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: Boundary Type  
 **Accepts Multiple Values**:   
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata/blob/main/controlled_terms/organization.csv    
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/organization.csv    
 
 **Field Name**: Classification System  
-**Description**: TBD  
-**Use**: TBD  
-**Conditional**: No  
-**Use Condition**: None  
+**Description**: Scientific Data Classification  
+**Use**: Optional  
+**Conditional**: Yes  
+**Use Condition**: classification_term  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/classification_system.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/classification_system.csv  
 
 **Field Name**: Classification Term  
-**Description**: TBD  
-**Use**: TBD  
+**Description**: Scientific Data Classification Term  
+**Use**: Optional  
 **Conditional**: No  
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/classification_term.csv  
+**Controlled Terms URL**:   
 
 **Field Name**: Completeness  
 **Description**: A assessment of the level of completeness of the dataset.   
@@ -508,7 +508,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/completeness.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/completeness.csv  
 
 **Field Name**: Creator  
 **Description**: The name of a person or organization who should be cited as contributing to the initial creation of the digital object. Also referred to as an "author" or "contributor".  
@@ -526,7 +526,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/data_stage.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/data_stage.csv  
 
 **Field Name**: Description   
 **Description**: An account of the digital object. The description may include an abstract, a table of contents, or a free-text account.  
@@ -544,7 +544,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/file_format.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/file_format.csv  
 
 **Field Name**: Keyword Term  
 **Description**: Subject matter keywords  
@@ -562,7 +562,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: Keyword Terms  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/keyword_vocabulary.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/keyword_vocabulary.csv  
 
 **Field Name**: Purpose  
 **Description**: A description of the purpose for the creation of this digital object and/or the expected use.  
@@ -580,7 +580,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/spatial_accuracy.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/spatial_accuracy.csv  
 
 **Field Name**: Spatial Data Type  
 **Description**: The type of spatial data  
@@ -589,7 +589,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/spatial_data_type.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/spatial_data_type.csv  
 
 **Field Name**: Title  
 **Description**: A name given to the digital object.  
@@ -635,7 +635,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/attribute_domain_type.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/attribute_domain_type.csv  
 
 **Field Name**: Attribute Domain Value  
 **Description**: Valid value for the attribute.  
@@ -698,7 +698,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: Horizontal Coordinate System  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/horizontal_coordinate_system.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/horizontal_coordinate_system.csv  
 
 **Field Name**: Horizontal Datum  
 **Description**: A horizontal datum is a specified coordinate system for a collection of positions on the surface of the earth. Horizontal datums define the geometric relationship between a coordinate system grid and the Earth's surface.  
@@ -707,7 +707,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: TBD  
 **Accepts Multiple Values**: TBD  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/horizontal_datum.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/horizontal_datum.csv  
 
 **Field Name**: Processing Step Date  
 **Description**: The date when a particular processing step was completed. Must conform to the ISO 8601 standard.  
@@ -761,7 +761,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/collection_method.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/collection_method.csv  
 
 **Field Name**: Vertical Coordinate System  
 **Description**: A vertical coordinate system defines the origin for height or depth values. They are used as a reference for specifying heights.  
@@ -770,7 +770,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: \https://github.com/TexasDIS/metadata/blob/main/controlled_terms/vertical_coordinate_system.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/vertical_coordinate_system.csv  
 
 **Field Name**: Vertical Datum  
 **Description**: A vertical datum is a surface of zero elevation to which heights of various points are referenced.   
@@ -779,7 +779,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/vertical_datum.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/vertical_datum.csv  
 
 ### Administrative
 **Field Name**: Collection Identifier  
@@ -843,7 +843,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/update_frequency.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/update_frequency.csv  
 
 **Field Name**: Use Constraint  
 **Description**: Constraints or restrictions on use of the digital object.  
@@ -852,7 +852,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/use_constraint.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/use_constraint.csv  
 
 ### Contact Information
 **Field Name**: Contact Affiliation  
@@ -862,7 +862,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/organization.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/organization.csv  
 
 **Field Name**: Contact Department  
 **Description**: Dept under the Contact Affiliation  
@@ -907,7 +907,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: Contact Name  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/contact_role.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/contact_role.csv  
 
 ### Access
 **Field Name**: Distribution Method  
@@ -935,7 +935,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: Distribution URL  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/organization.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/organization.csv  
 
 **Field Name**: Service Endpoint Type  
 **Description**: The type of service endpoint used for distribution.  
@@ -944,7 +944,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: Service Endpoint URL  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/service_endpoint_type.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/service_endpoint_type.csv  
 
 ### Coverage
 **Field Name**: Scale  
@@ -954,7 +954,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/scale_range.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/scale_range.csv  
 
 **Field Name**: Spatial Extent (Decimal Degrees)  
 **Description**: Coordinates for the bounding box describing the spatial extent covered by the digital object, in decimal degrees.  
@@ -983,7 +983,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/accessibility.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/accessibility.csv  
 
 **Field Name**: Boundary Name  
 **Description**: The geospatial boundary name associated with the digital object. User is required to either provide this boundary type and name field or the spatial extent field.   
@@ -992,7 +992,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: Boundary Type  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata/blob/main/controlled_terms/organization.csv   
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/organization.csv   
 
 **Field Name**: Boundary Type  
 **Description**: The type of geospatial boundary associated with the digital object. User is required to either provide this boundary type and name field or the spatial extent field.   
@@ -1001,7 +1001,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/boundary_type.csv   
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/boundary_type.csv   
 
 **Field Name**: Boundary Unit Identifier  
 **Description**: The unique identifier for a geospatial boundary unit of a particular type, such as a name or code.  
@@ -1010,7 +1010,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: Boundary Type  
 **Accepts Multiple Values**:   
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata/blob/main/controlled_terms/organization.csv    
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/organization.csv    
 
 **Field Name**: Completeness  
 **Description**: A assessment of the level of completeness of the dataset.   
@@ -1019,7 +1019,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/completeness.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/completeness.csv  
 
 **Field Name**: Creator  
 **Description**: The name of a person or organization who should be cited as contributing to the initial creation of the digital object. Also referred to as an "author" or "contributor".  
@@ -1037,7 +1037,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/data_stage.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/data_stage.csv  
 
 **Field Name**: Description   
 **Description**: An account of the digital object. The description may include an abstract, a table of contents, or a free-text account.  
@@ -1064,7 +1064,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: Keyword Terms  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/keyword_vocabulary.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/keyword_vocabulary.csv  
 
 **Field Name**: Model Dimension  
 **Description**: Dimensionality choice of a terrain model (1D, 2D, 3D, or combos) created prior to running hydro model computations.  
@@ -1073,7 +1073,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**:   
 **Accepts Multiple Values**: Yes  
 **Format**:   
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/model_dimension.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/model_dimension.csv  
 
 **Field Name**: Model Software Name  
 **Description**: The name of the model software used to create or work with the digital object.  
@@ -1082,7 +1082,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/software.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/software.csv  
 
 **Field Name**: Model Software Version  
 **Description**: The version of the software used to create or work with the digital object.  
@@ -1100,7 +1100,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/model_type.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/model_type.csv  
 
 **Field Name**: Purpose  
 **Description**: A description of the purpose for the creation of this digital object and/or the expected use.  
@@ -1137,7 +1137,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: Horizontal Coordinate System  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/horizontal_coordinate_system.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/horizontal_coordinate_system.csv  
 
 **Field Name**: Horizontal Datum  
 **Description**: A horizontal datum is a specified coordinate system for a collection of positions on the surface of the earth. Horizontal datums define the geometric relationship between a coordinate system grid and the Earth's surface.  
@@ -1146,7 +1146,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: TBD  
 **Accepts Multiple Values**: TBD  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/horizontal_datum.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/horizontal_datum.csv  
 
 **Field Name**: Vertical Accuracy (Meters)  
 **Description**: Numeric value for the accuracy in meters.  
@@ -1164,7 +1164,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/collection_method.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/collection_method.csv  
 
 **Field Name**: Vertical Coordinate System  
 **Description**: A vertical coordinate system defines the origin for height or depth values. They are used as a reference for specifying heights.  
@@ -1173,7 +1173,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: \https://github.com/TexasDIS/metadata/blob/main/controlled_terms/vertical_coordinate_system.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/vertical_coordinate_system.csv  
 
 **Field Name**: Vertical Datum  
 **Description**: A vertical datum is a surface of zero elevation to which heights of various points are referenced.   
@@ -1182,7 +1182,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/vertical_datum.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/vertical_datum.csv  
 
 ### Administrative
 **Field Name**: Collection Identifier  
@@ -1255,7 +1255,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/update_frequency.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/update_frequency.csv  
 
 **Field Name**: Use Constraint  
 **Description**: Constraints or restrictions on use of the digital object.  
@@ -1264,7 +1264,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/use_constraint.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/use_constraint.csv  
 
 ### Contact Information
 **Field Name**: Contact Affiliation  
@@ -1274,7 +1274,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/organization.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/organization.csv  
 
 **Field Name**: Contact Department  
 **Description**: Dept under the Contact Affiliation  
@@ -1319,7 +1319,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: Contact Name  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/contact_role.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/contact_role.csv  
 
 ### Access
 **Field Name**: Distribution Method  
@@ -1347,7 +1347,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: Distribution URL  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/organization.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/organization.csv  
 
 **Field Name**: Service Endpoint Type  
 **Description**: The type of service endpoint used for distribution.  
@@ -1356,7 +1356,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: Service Endpoint URL  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/service_endpoint_type.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/service_endpoint_type.csv  
 
 ### Coverage
 **Field Name**: Scale  
@@ -1366,7 +1366,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/scale_range.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/scale_range.csv  
 
 **Field Name**: Spatial Extent (Decimal Degrees)  
 **Description**: Coordinates for the bounding box describing the spatial extent covered by the digital object, in decimal degrees.  
@@ -1395,7 +1395,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/accessibility.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/accessibility.csv  
 
 **Field Name**: Model Config File  
 **Description**: File or files required for running the model.  
@@ -1473,7 +1473,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/organization.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/organization.csv  
 
 **Field Name**: Contact Department  
 **Description**: Dept under the Contact Affiliation  
@@ -1518,7 +1518,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: Contact Name  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/contact_role.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/contact_role.csv  
 
 ### Discovery
 **Field Name**: Description   
@@ -1546,7 +1546,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: Keyword Terms  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/keyword_vocabulary.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/keyword_vocabulary.csv  
 
 **Field Name**: Purpose  
 **Description**: A description of the purpose for the creation of this digital object and/or the expected use.  
@@ -1574,7 +1574,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/scale_range.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/scale_range.csv  
 
 **Field Name**: Spatial Extent (Decimal Degrees)  
 **Description**: Coordinates for the bounding box describing the spatial extent covered by the digital object, in decimal degrees.  
@@ -1594,7 +1594,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/collection_method.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/collection_method.csv  
 
 **Field Name**: Collection Method Description  
 **Description**: Description of the data collection method.  
@@ -1621,7 +1621,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/collection_method.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/collection_method.csv  
 
 **Field Name**: Vertical Accuracy (Meters)  
 **Description**: Numeric value for the accuracy in meters.  
@@ -1639,7 +1639,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/collection_method.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/collection_method.csv  
 
 **Field Name**: Vertical Coordinate System  
 **Description**: A vertical coordinate system defines the origin for height or depth values. They are used as a reference for specifying heights.  
@@ -1648,7 +1648,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: \https://github.com/TexasDIS/metadata/blob/main/controlled_terms/vertical_coordinate_system.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/vertical_coordinate_system.csv  
 
 **Field Name**: Vertical Datum  
 **Description**: A vertical datum is a surface of zero elevation to which heights of various points are referenced.   
@@ -1657,7 +1657,7 @@ Each metadata field below is defined with the following elements:
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
 **Format**: Controlled Terms  
-**Controlled Terms URL**: https://github.com/TexasDIS/metadata/blob/main/controlled_terms/vertical_datum.csv  
+**Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/vertical_datum.csv  
 
 ### Administrative
 **Field Name**: Date Last Updated  

@@ -1,5 +1,5 @@
 # REDI Metadata Documentation
-*Last revised: 2024-01-24*
+*Last revised: 2024-06-06*
 
 ## Metadata Organization
 Within the current REDI model, "collections" contain "artifacts", "data layers", and "models." 
@@ -100,7 +100,7 @@ Each metadata field below is defined with the following elements:
 
 **Field Name**: File Format  
 **Description**: The file format of the digital object. Used when a data files are uploaded to REDI.  
-**Use**: Strongly Recommended  
+**Use**: Recommended  
 **Conditional**: No  
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
@@ -164,7 +164,7 @@ Each metadata field below is defined with the following elements:
 
 **Field Name**: Attribute Description  
 **Description**: Description of the attribute (field, variable) within the attribute table for this layer.  
-**Use**: Strongly Recommended  
+**Use**: Recommended  
 **Conditional**: No  
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
@@ -200,7 +200,7 @@ Each metadata field below is defined with the following elements:
 
 **Field Name**: Attribute Name  
 **Description**: Name of the attribute (field, variable) within the attribute table for this layer.  
-**Use**: Strongly Recommended  
+**Use**: Recommended  
 **Conditional**: No  
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
@@ -263,7 +263,7 @@ Each metadata field below is defined with the following elements:
 
 **Field Name**: Table Assessment  
 **Description**: A statement giving a general assessment of the overall accuracy or completeness of the attribute table associated with the layer.  
-**Use**: Strongly Recommended  
+**Use**: Recommended  
 **Conditional**: No  
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
@@ -428,12 +428,21 @@ Each metadata field below is defined with the following elements:
 
 **Field Name**: Service Endpoint Type  
 **Description**: The type of service endpoint used for distribution.  
-**Use**: Strongly Recommended  
-**Conditional**: No  
+**Use**: Optional  
+**Conditional**: Yes  
 **Use Condition**: Service Endpoint URL  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
 **Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/service_endpoint_type.csv  
+
+**Field Name**: Service Endpoint URL  
+**Description**: The actual URL pointing to the map or data service  
+**Use**: Recommended  
+**Conditional**: No  
+**Use Condition**: None  
+**Accepts Multiple Values**: No  
+**Format**: Text  
+**Controlled Terms URL**:   
 
 ### Coverage
 **Field Name**: Time Period Covered  
@@ -539,7 +548,7 @@ Each metadata field below is defined with the following elements:
 
 **Field Name**: File Format  
 **Description**: The file format of the digital object. Used when a data files are uploaded to REDI.  
-**Use**: Strongly Recommended  
+**Use**: Recommended  
 **Conditional**: No  
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
@@ -575,7 +584,7 @@ Each metadata field below is defined with the following elements:
 
 **Field Name**: Spatial Accuracy  
 **Description**: When overlaid upon basemap reference data and aerial orthoimagery, are the feature locations spatially accurate or is there significant displacement from the actual positions? Note: This field only applies to spatial data.  
-**Use**: Strongly Recommended  
+**Use**: Recommended  
 **Conditional**: No  
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
@@ -621,7 +630,7 @@ Each metadata field below is defined with the following elements:
 
 **Field Name**: Attribute Description  
 **Description**: Description of the attribute (field, variable) within the attribute table for this layer.  
-**Use**: Strongly Recommended  
+**Use**: Recommended  
 **Conditional**: No  
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
@@ -657,7 +666,7 @@ Each metadata field below is defined with the following elements:
 
 **Field Name**: Attribute Name  
 **Description**: Name of the attribute (field, variable) within the attribute table for this layer.  
-**Use**: Strongly Recommended  
+**Use**: Recommended  
 **Conditional**: No  
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
@@ -738,7 +747,7 @@ Each metadata field below is defined with the following elements:
 
 **Field Name**: Table Assessment  
 **Description**: A statement giving a general assessment of the overall accuracy or completeness of the attribute table associated with the layer.  
-**Use**: Strongly Recommended  
+**Use**: Recommended  
 **Conditional**: No  
 **Use Condition**: None  
 **Accepts Multiple Values**: No  
@@ -747,7 +756,7 @@ Each metadata field below is defined with the following elements:
 
 **Field Name**: Vertical Accuracy (Meters)  
 **Description**: Numeric value for the accuracy in meters.  
-**Use**: Required  
+**Use**: Optional  
 **Conditional**: No  
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
@@ -939,12 +948,21 @@ Each metadata field below is defined with the following elements:
 
 **Field Name**: Service Endpoint Type  
 **Description**: The type of service endpoint used for distribution.  
-**Use**: Strongly Recommended  
-**Conditional**: No  
+**Use**: Optional  
+**Conditional**: Yes  
 **Use Condition**: Service Endpoint URL  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
 **Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/service_endpoint_type.csv  
+
+**Field Name**: Service Endpoint URL  
+**Description**: The actual URL pointing to the map or data service  
+**Use**: Recommended  
+**Conditional**: No  
+**Use Condition**: None  
+**Accepts Multiple Values**: No  
+**Format**: Text  
+**Controlled Terms URL**:   
 
 ### Coverage
 **Field Name**: Scale  
@@ -1150,7 +1168,7 @@ Each metadata field below is defined with the following elements:
 
 **Field Name**: Vertical Accuracy (Meters)  
 **Description**: Numeric value for the accuracy in meters.  
-**Use**: Required  
+**Use**: Optional  
 **Conditional**: No  
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
@@ -1351,12 +1369,21 @@ Each metadata field below is defined with the following elements:
 
 **Field Name**: Service Endpoint Type  
 **Description**: The type of service endpoint used for distribution.  
-**Use**: Strongly Recommended  
-**Conditional**: No  
+**Use**: Optional  
+**Conditional**: Yes  
 **Use Condition**: Service Endpoint URL  
 **Accepts Multiple Values**: No  
 **Format**: Controlled Terms  
 **Controlled Terms URL**: https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/service_endpoint_type.csv  
+
+**Field Name**: Service Endpoint URL  
+**Description**: The actual URL pointing to the map or data service  
+**Use**: Recommended  
+**Conditional**: No  
+**Use Condition**: None  
+**Accepts Multiple Values**: No  
+**Format**: Text  
+**Controlled Terms URL**:   
 
 ### Coverage
 **Field Name**: Scale  
@@ -1589,7 +1616,7 @@ Each metadata field below is defined with the following elements:
 ### Reuse
 **Field Name**: Collection Method  
 **Description**: The procedure, technique, or mode of inquiry used to attain data. Also referred to as "Data Capture Method".  
-**Use**: Strongly Recommended  
+**Use**: Recommended  
 **Conditional**: No  
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  
@@ -1598,7 +1625,7 @@ Each metadata field below is defined with the following elements:
 
 **Field Name**: Collection Method Description  
 **Description**: Description of the data collection method.  
-**Use**: Strongly Recommended  
+**Use**: Recommended  
 **Conditional**: Yes  
 **Use Condition**: Collection Method  
 **Accepts Multiple Values**: No  
@@ -1625,7 +1652,7 @@ Each metadata field below is defined with the following elements:
 
 **Field Name**: Vertical Accuracy (Meters)  
 **Description**: Numeric value for the accuracy in meters.  
-**Use**: Required  
+**Use**: Optional  
 **Conditional**: No  
 **Use Condition**: None  
 **Accepts Multiple Values**: Yes  

@@ -16,5 +16,5 @@ High water mark types include debris lines, seed lines, mud lines, direct observ
 61,Core,Purpose,Collection,Discovery,A description of the purpose for the creation of this digital object and/or the expected use.,"For future flood forecasting, predicting severity of future floods, and delineating floodplain maps
 ",Optional,No,None,No,Text,None
 62,Core,Scale,Collection,Coverage,The scale of the dataset ,"global, national, regional, local",Recommended,No,None,No,Controlled Terms,https://github.com/In-For-Disaster-Analytics/metadata-schema/blob/main/controlled_terms/scale_range.csv
-66,Core,Spatial Extent (Decimal Degrees),Collection,Coverage,"Coordinates for the bounding box describing the spatial extent covered by the digital object, in decimal degrees.","31.555, 27.555, -97.555, -101.555 ",Required,No,None,Yes,Array: Decimal Degrees or Geometry: Polygon,None
-69,Core,Title,Collection,Discovery,A name given to the digital object.,USGS High Water Marks,Required,No,None,No,Text,None
+67,Core,Spatial Extent (Decimal Degrees),Collection,Coverage,"Coordinates for the bounding box describing the spatial extent covered by the digital object, in decimal degrees.","31.555, 27.555, -97.555, -101.555 ",Required,No,None,Yes,Array: Decimal Degrees or Geometry: Polygon,None
+70,Core,Title,Collection,Discovery,A name given to the digital object.,USGS High Water Marks,Required,No,None,No,Text,None
